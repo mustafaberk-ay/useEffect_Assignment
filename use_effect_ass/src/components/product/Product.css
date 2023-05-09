@@ -1,0 +1,19 @@
+.product_grid_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1%;
+    row-gap: 1%;
+    margin: 1% 0 5% 0;
+    padding: 0 1%;
+}
+
+.product_grid_item{
+    border: solid;
+    border-radius: 10px;
+    text-align: start;
+}
+
+.product_grid_item img{
+    width: 50px;
+    height: 50px;
+}
